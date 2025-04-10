@@ -1,9 +1,25 @@
+body {
+  background-color: #808080;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .calculator {
-  width: 100%;
-  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 320px; /* Largura fixa */
 }
 
 #display {
   background-color: #f0f0f0;
   border-radius: 8px;
+  font-size: 1.5em;
+  padding: 10px;
 }
