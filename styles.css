@@ -1,66 +1,9 @@
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #808080; /* Fundo cinza */
-}
-
 .calculator {
-  text-align: center;
-  background-color: #ffffff; /* Fundo branco da calculadora */
-  border-radius: 15px; /* Bordas arredondadas */
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+  width: 100%;
+  max-width: 400px;
 }
 
 #display {
-  width: 95%;
-  margin-bottom: 10px;
-  padding: 10px;
-  margin-right: 10px;
-  font-size: 1.5em;
-  border: none;
-  border-radius: 5px; /* Bordas arredondadas para o visor */
-  background-color: #f0f0f0; /* Cinza claro para o fundo do visor */
-}
-
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr); /* 6 linhas agora */
-  grid-gap: 10px;
-}
-
-button {
-  padding: 15px;
-  font-size: 1.2em;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px; /* Bordas arredondadas para os botões */
-  background-color: #000; /* Cor preta para os botões */
-  color: #fff; /* Texto branco nos botões */
-}
-
-/* Botão = que ocupa duas linhas */
-button.double {
-  grid-row: span 2; /* Ocupa duas linhas */
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-  left: 0px;
-}
-
-footer a {
-  color: #5bc0de;
-  text-decoration: none;
+  background-color: #f0f0f0;
+  border-radius: 8px;
 }
